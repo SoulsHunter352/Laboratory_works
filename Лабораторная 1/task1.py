@@ -3,4 +3,6 @@ index_none_element = numbers.index(None)  # Находим индекс None э�
 numbers_sum = sum(numbers[:index_none_element]) + sum(numbers[index_none_element + 1:])
 average = numbers_sum / len(numbers)  # Среднее арифметическое чисел массива
 numbers[index_none_element] = average  # Присваиваем значение None элементу
+# TODO заменить значение пропущенного элемента средним арифметическим
+
 print("Измененный список:", numbers)
